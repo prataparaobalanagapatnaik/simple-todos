@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-title {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+}
+
+.delete-button {
+  background-color: #ff0b37;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete-button:hover {
+  background-color: #ff8542;
+}
